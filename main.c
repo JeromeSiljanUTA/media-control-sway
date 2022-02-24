@@ -52,6 +52,9 @@ int main(int argc, char *argv[]){
             }
         }
     }
+    else if(strcmp(buff, "spotify") == 0){
+        strcpy(selected, buff);
+    }
 
     char command[255];
 
