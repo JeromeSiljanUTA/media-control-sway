@@ -16,12 +16,15 @@ This project was thrown together quickly, so I expect that there's a lot of area
 ```
 git clone https://github.com/JeromeSiljanUTA/media-control-sway
 cd media-control-sway
-chmod 755 install.sh
-sudo ./install.sh <user>
+make && sudo make install
 ```
 
- - `<user>` is your username
- - The install script is not necessary, but helps get things set up
+### Add these lines to your sway config:
+```
+bindsym --locked XF86AudioPlay exec media-control-sway play-pause
+bindsym --locked XF86AudioNext exec media-control-sway next
+bindsym --locked XF86AudioPrev exec media-control-sway previous
+```
 
 ### Dependencies:
  - `sway`
@@ -59,3 +62,4 @@ It passes whatever argument you give it to `playerctl`, but specifies the player
  - [ ] Use `wlr-foreign-toplevel` protocol
  - [ ] Create makefile
  - [ ] Add config file functionality that allows changes to default player
+
