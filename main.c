@@ -61,13 +61,11 @@ int main(int argc, char *argv[]){
     strcat(command, argv[1]);
     strcat(command, " -p ");
 
-    printf("%s", command);
     system(strcat(command, selected));
 
     for(int i = 0; i < player_arr_size; i++){
         free(&players[i]);
     }
-    free(players);
 
     return 0;
 }
