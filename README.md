@@ -18,10 +18,10 @@ git clone https://github.com/JeromeSiljanUTA/media-control-sway
 cd media-control-sway
 chmod 755 install.sh
 sudo ./install.sh <user>
+```
 
  - `<user>` is your username
  - The install script is not necessary, but helps get things set up
-```
 
 ### Dependencies:
  - `sway`
