@@ -1,8 +1,8 @@
 #!/bin/bash
 
-gcc main.c -o media-control-sway
+sudo -u $1 make
 
-sudo mv media-control /usr/bin/media-control-sway
+sudo mv media-control-sway /usr/bin/media-control-sway
 
 echo "You should remove these lines:"
 sudo -u $1 cat "/home/$1/.config/sway/config" | grep XF86AudioPlay
