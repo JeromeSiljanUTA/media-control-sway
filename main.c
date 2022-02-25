@@ -12,11 +12,10 @@ int main(int argc, char *argv[]){
     char *token;
     int player_arr_size = 0;
     static int player_arr_index = 0;
-    char **players = malloc(sizeof(char*) * player_arr_size);
     char prev_token[255];
     char stable_token[255];
+    char **players = malloc(sizeof(char*) * player_arr_size);
 
-    // filling players array
     while(comp != 0){
         fgets(buff, 255, raw_players);
         comp = strcmp(prev_buff, buff); 
