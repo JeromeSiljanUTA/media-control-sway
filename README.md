@@ -56,7 +56,6 @@ It passes whatever argument you give it to `playerctl`, but specifies the player
 ## To Do
  - [ ] Package media-control-sway for AUR
  - [ ] Make e-build for media-control-sway 
- - [ ] Have install script ignore appropriate bindsyms
  - [ ] Use `wlr-foreign-toplevel` protocol
  - [ ] Create makefile
  - [ ] Add config file functionality that allows changes to default player
