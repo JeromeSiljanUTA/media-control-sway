@@ -30,6 +30,7 @@ bindsym --locked XF86AudioPrev exec media-control-sway previous
  - `sway`
  - `jq`
  - `playerctl`
+ - `make`
 
 ## Uninstalling
 ` sudo ./remove.sh `
