@@ -33,7 +33,7 @@ bindsym --locked XF86AudioPrev exec media-control-sway previous
  - `make`
 
 ## Uninstalling
-` sudo ./remove.sh `
+`sudo make uninstall`
 
 ## Usage
 `media-control-sway` is really just a glorified shell script wrapper for `playerctl`
