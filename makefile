@@ -3,3 +3,6 @@ media-control-sway: main.c
 
 install: 
 	mv media-control-sway /usr/bin/media-control-sway
+
+uninstall: 
+	rm /usr/bin/media-control-sway
